@@ -184,7 +184,7 @@ h1{
     .hidden{
         display: none;
     }
-
+    
     .grid-container{
         /* width: 60vw; */
         grid-template-columns: auto auto 1.5rem 1rem ;
@@ -242,5 +242,9 @@ h1{
     .me-description{
         grid-column: 1/2;
         grid-row: 3/4;
+    }
+
+    #proyects{
+        margin-top: 10rem;
     }
 }
