@@ -146,7 +146,7 @@ h1{
 .proyect-title{
     font-family: 'Alata', sans-serif;
     padding: 1rem 0rem 1rem 0;
-    
+   font-size:1.6rem; 
 }
 
 .view-repo{
@@ -202,6 +202,11 @@ h3{
     text-transform: uppercase;
 }
 
+.subtitle {
+  text-align:center;
+font-size:1.3rem;
+font-family: 'Roboto', sans-serif;    
+}
 @media (min-width: 600px){
     .navbar{
         writing-mode: vertical-rl;
@@ -328,5 +333,4 @@ h3{
         flex-direction: row;
         justify-content: space-around;
     }
-
 }
